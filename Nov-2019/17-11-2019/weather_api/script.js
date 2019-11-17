@@ -1,5 +1,5 @@
 var city = "Sydney";
-$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=131b0068f6d3f79f21f815b13f4a9ca3", function (data) {
+$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=c9454d64d3053261c04428c4d9c23325", function (data) {
     console.log(data);
 
     var icon = "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
