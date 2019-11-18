@@ -1,4 +1,4 @@
-var city = "sydney";
+var city = "Sydney";
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=c9454d64d3053261c04428c4d9c23325", function (data) {
     console.log(data);
 
