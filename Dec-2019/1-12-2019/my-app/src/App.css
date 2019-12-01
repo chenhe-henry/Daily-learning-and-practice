@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: rgba(244, 255, 1, 0.5);
+}
+
+.tweet {
+  border: 2px solid black;
+}
+
+.red {
+  color: red;
+}
